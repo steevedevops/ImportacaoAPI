@@ -1,0 +1,9 @@
+Pasos para configurar a Importação....
+
+1 - crear un campo hr_imp_macro tipo (time) nas tabelas 
+
+-produto
+-linhas_produtos
+-grupo
+-linhasproduto
+-varlinha

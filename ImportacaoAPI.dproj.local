@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/02 15:17:49.000.342,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/03 09:56:20.000.308,=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/03 09:57:09.000.508,D:\TRABALHOS ENDESENVOLVIMENTO\ImportacaoAPI\Uprincipal.pas=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/03 09:57:09.000.508,D:\TRABALHOS ENDESENVOLVIMENTO\ImportacaoAPI\Uprincipal.dfm=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/10/03 09:57:18.000.662,D:\TRABALHOS ENDESENVOLVIMENTO\ImportacaoAPI\ImportacaoAPI.dproj=C:\Users\Administrador\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/03 10:03:20.000.134,=D:\TRABALHOS ENDESENVOLVIMENTO\ImportacaoAPI\Udados.pas</Transaction>
+    <Transaction>2018/10/03 14:05:04.000.880,=D:\TRABALHOS ENDESENVOLVIMENTO\App_Italia joias\ImportacaoAPI\uLkJSON.pas</Transaction>
+    <Transaction>2018/10/03 23:40:48.000.104,C:\Users\Steeve\Desktop\Abacus\App_Italia joias\ImportacaoAPI\uLkJSON.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

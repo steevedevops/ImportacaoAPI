@@ -1,0 +1,116 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Importa'#231#227'o API - Italia Joias'
+  ClientHeight = 329
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object header: TPanel
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 41
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Importa'#231#227'o API'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Trebuchet MS'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    ExplicitWidth = 666
+  end
+  object body: TPanel
+    Left = 0
+    Top = 41
+    Width = 635
+    Height = 288
+    Align = alClient
+    BevelOuter = bvLowered
+    TabOrder = 1
+    ExplicitWidth = 666
+    object sbtnimportar: TSpeedButton
+      Left = 250
+      Top = 247
+      Width = 140
+      Height = 37
+      Caption = 'Importar dados'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Trebuchet MS'
+      Font.Style = []
+      ParentFont = False
+      OnClick = sbtnimportarClick
+    end
+    object Memo: TMemo
+      Left = 324
+      Top = 6
+      Width = 306
+      Height = 212
+      Lines.Strings = (
+        '')
+      TabOrder = 0
+    end
+    object DBGrid1: TDBGrid
+      Left = 6
+      Top = 6
+      Width = 312
+      Height = 92
+      DataSource = Dados.dtsbuscadados
+      TabOrder = 1
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -11
+      TitleFont.Name = 'Tahoma'
+      TitleFont.Style = []
+    end
+    object ProgressBar1: TProgressBar
+      Left = 6
+      Top = 224
+      Width = 655
+      Height = 17
+      TabOrder = 2
+    end
+    object edtmateria: TEdit
+      Left = 440
+      Top = 256
+      Width = 65
+      Height = 21
+      TabOrder = 3
+    end
+    object edttamanho: TEdit
+      Left = 520
+      Top = 256
+      Width = 65
+      Height = 21
+      TabOrder = 4
+    end
+    object DBGrid2: TDBGrid
+      Left = 6
+      Top = 102
+      Width = 312
+      Height = 115
+      DataSource = Dados.dtsbuscadados
+      TabOrder = 5
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -11
+      TitleFont.Name = 'Tahoma'
+      TitleFont.Style = []
+    end
+  end
+end
